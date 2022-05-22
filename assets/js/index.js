@@ -59,4 +59,9 @@ $("#btnLogout").click(() => {
             location.href = "/login.html";
         }
     );
+
+  
 });
+function change(){
+    $('#art_list').addClass('layui-this').next().removeClass('layui-this')
+}
